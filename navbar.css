@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+nav #left_main_block{
+    height: 50px;
+    width: 450px;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav #right_main_block{
+    height: 50px;
+    width: 400px;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav #left_main_block .logo_block{
+    height: 30px;
+    width: 90px;
+    /* border: 2px solid blue; */
+    /* border: 0.1px solid rgb(88, 83, 83); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+nav #left_main_block .hyperlink_block{
+    height: 45px;
+    width: 300px;
+    /* border: 2px solid blue; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+nav #left_main_block .icon_block{
+    height: 35px;
+    width: 40px;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid rgb(88, 83, 83);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav #left_main_block .icon_block:hover{
+    height: 35px;
+    border: 0.1px solid rgb(192, 96, 96);
+    border-radius: 5px;
+    color: rgb(192, 96, 96);
+}
+
+nav #right_main_block .social_media_block{
+    height: 35px;
+    width: 140px;
+    /* border: 2px solid blue; */
+}
+
+nav #right_main_block .back_btn_block{
+    height: 35px;
+    width: 50px;
+    /* border: 2px solid blue; */
+}
+
+nav #right_main_block .download_block{
+    height: 35px;
+    width: 185px;
+    /* border: 2px solid blue; */
+}
+
+nav #left_main_block .hyperlink_block ul{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    border: 0.1px solid rgb(88, 83, 83);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+nav #left_main_block .hyperlink_block ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav #left_main_block .hyperlink_block ul #desktop{
+    height: 35px;
+    width: 90;
+    margin-left: -13px;
+    background-color: rgb(93, 90, 90);
+    border-radius: 5px 0px 0px 5px;
+}
+
+nav #left_main_block .hyperlink_block ul li:hover{
+    height: 35px;
+    width: 50;
+    background-color: rgb(58, 58, 58);
+    transition: 1s;
+}
+
+nav #right_main_block .social_media_block{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.1px solid rgb(88, 83, 83);
+    border-radius: 5px;
+}
+
+nav #right_main_block .social_media_block #like{
+    border: 0.1px;
+    border-radius: 2px;
+    background-color: rgb(0, 76, 253);
+    cursor: pointer;
+}
+
+nav #right_main_block .social_media_block #tweet{
+    width: 65px;
+    border: 0.1px;
+    border-radius: 10px;
+    background-color: rgb(0, 183, 255);
+    cursor: pointer;
+}
+
+nav #right_main_block .social_media_block #tweet:hover{
+    background-color:rgb(0, 128, 255) ;
+}
+
+nav #right_main_block .back_btn_block{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.1px solid rgb(88, 83, 83);
+    border-radius: 5px;
+}
+
+nav #right_main_block .back_btn_block:hover{
+    height: 35px;
+    border: 0.1px solid rgb(192, 96, 96);
+    border-radius: 5px;
+    color: rgb(192, 96, 96);
+    cursor: pointer;
+}
+
+nav #right_main_block .download_block{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.1px solid rgb(88, 83, 83);
+    border-radius: 5px;
+    background-color: rgb(192, 96, 96);
+    cursor: pointer;
+}

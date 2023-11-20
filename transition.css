@@ -1,0 +1,38 @@
+/* TRANSITION */
+/* transition-property */
+/* transition-duration */
+/* transition-timing-function */
+/* transition-delay */
+
+/* SHORTHAND PROPERTY */
+/* transition: transition-property, transition-duration, transition-timing-function, transition-delay */
+
+/* TRANSFORM */
+/* rotate ==> degree */
+/* skew ==> degree */
+/* scale ==> decimal and integer */
+
+section{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    /* transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-delay: 2s; */
+    transition: all 1s ease-in-out 1s;
+}
+
+section:hover{
+    /* height: 300px;
+    width: 300px; */
+    background-color: green;
+    /* transform: rotate(180deg); */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateY(45deg); */
+    /* transform: skew(45deg); */
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+    /* transform: scale(0.2); */
+    /* transform: scale(2); */
+}
